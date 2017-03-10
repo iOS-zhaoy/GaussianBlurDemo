@@ -1,0 +1,7 @@
+platform :ios, ‘7.0’
+
+target ‘GaussianBlurDemo’ do
+
+pod 'FXBlurView', '~> 1.6.4'
+
+end

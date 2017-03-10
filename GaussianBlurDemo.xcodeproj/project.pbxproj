@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20FA27091D73F9D3003201C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FA27081D73F9D3003201C5 /* main.m */; };
+		20FA270C1D73F9D3003201C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FA270B1D73F9D3003201C5 /* AppDelegate.m */; };
+		20FA270F1D73F9D3003201C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FA270E1D73F9D3003201C5 /* ViewController.m */; };
+		20FA27121D73F9D3003201C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FA27101D73F9D3003201C5 /* Main.storyboard */; };
+		20FA27141D73F9D3003201C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FA27131D73F9D3003201C5 /* Assets.xcassets */; };
+		20FA27171D73F9D3003201C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FA27151D73F9D3003201C5 /* LaunchScreen.storyboard */; };
+		20FA27221D73F9D3003201C5 /* GaussianBlurDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FA27211D73F9D3003201C5 /* GaussianBlurDemoTests.m */; };
+		20FA272D1D73FD47003201C5 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 20FA272C1D73FD47003201C5 /* bg.png */; };
+		55C005F4957FFCAF148FB5E1 /* libPods-GaussianBlurDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D946B4259F1BAB15837049 /* libPods-GaussianBlurDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20FA271E1D73F9D3003201C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20FA26FC1D73F9D3003201C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20FA27031D73F9D3003201C5;
+			remoteInfo = GaussianBlurDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20FA27041D73F9D3003201C5 /* GaussianBlurDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaussianBlurDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FA27081D73F9D3003201C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20FA270A1D73F9D3003201C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20FA270B1D73F9D3003201C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20FA270D1D73F9D3003201C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20FA270E1D73F9D3003201C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20FA27111D73F9D3003201C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20FA27131D73F9D3003201C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20FA27161D73F9D3003201C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20FA27181D73F9D3003201C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FA271D1D73F9D3003201C5 /* GaussianBlurDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaussianBlurDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FA27211D73F9D3003201C5 /* GaussianBlurDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaussianBlurDemoTests.m; sourceTree = "<group>"; };
+		20FA27231D73F9D3003201C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FA272C1D73FD47003201C5 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		48D946B4259F1BAB15837049 /* libPods-GaussianBlurDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GaussianBlurDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D98F3A592A2F48BE720953B /* Pods-GaussianBlurDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaussianBlurDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaussianBlurDemo/Pods-GaussianBlurDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BC2B4F10FE1F53B8BAB238AB /* Pods-GaussianBlurDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaussianBlurDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaussianBlurDemo/Pods-GaussianBlurDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20FA27011D73F9D3003201C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C005F4957FFCAF148FB5E1 /* libPods-GaussianBlurDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FA271A1D73F9D3003201C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20FA26FB1D73F9D3003201C5 = {
+			isa = PBXGroup;
+			children = (
+				20FA27061D73F9D3003201C5 /* GaussianBlurDemo */,
+				20FA27201D73F9D3003201C5 /* GaussianBlurDemoTests */,
+				20FA27051D73F9D3003201C5 /* Products */,
+				7C4EC28552A9A870B8D15D36 /* Pods */,
+				8271C25D046C1E6FD749F2DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20FA27051D73F9D3003201C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20FA27041D73F9D3003201C5 /* GaussianBlurDemo.app */,
+				20FA271D1D73F9D3003201C5 /* GaussianBlurDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20FA27061D73F9D3003201C5 /* GaussianBlurDemo */ = {
+			isa = PBXGroup;
+			children = (
+				20FA270A1D73F9D3003201C5 /* AppDelegate.h */,
+				20FA270B1D73F9D3003201C5 /* AppDelegate.m */,
+				20FA270D1D73F9D3003201C5 /* ViewController.h */,
+				20FA270E1D73F9D3003201C5 /* ViewController.m */,
+				20FA27071D73F9D3003201C5 /* Supporting Files */,
+			);
+			path = GaussianBlurDemo;
+			sourceTree = "<group>";
+		};
+		20FA27071D73F9D3003201C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20FA272C1D73FD47003201C5 /* bg.png */,
+				20FA27101D73F9D3003201C5 /* Main.storyboard */,
+				20FA27131D73F9D3003201C5 /* Assets.xcassets */,
+				20FA27151D73F9D3003201C5 /* LaunchScreen.storyboard */,
+				20FA27181D73F9D3003201C5 /* Info.plist */,
+				20FA27081D73F9D3003201C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20FA27201D73F9D3003201C5 /* GaussianBlurDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				20FA27211D73F9D3003201C5 /* GaussianBlurDemoTests.m */,
+				20FA27231D73F9D3003201C5 /* Info.plist */,
+			);
+			path = GaussianBlurDemoTests;
+			sourceTree = "<group>";
+		};
+		7C4EC28552A9A870B8D15D36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC2B4F10FE1F53B8BAB238AB /* Pods-GaussianBlurDemo.debug.xcconfig */,
+				5D98F3A592A2F48BE720953B /* Pods-GaussianBlurDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8271C25D046C1E6FD749F2DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48D946B4259F1BAB15837049 /* libPods-GaussianBlurDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20FA27031D73F9D3003201C5 /* GaussianBlurDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FA27261D73F9D3003201C5 /* Build configuration list for PBXNativeTarget "GaussianBlurDemo" */;
+			buildPhases = (
+				E0644DB84268C2F4479A3951 /* [CP] Check Pods Manifest.lock */,
+				20FA27001D73F9D3003201C5 /* Sources */,
+				20FA27011D73F9D3003201C5 /* Frameworks */,
+				20FA27021D73F9D3003201C5 /* Resources */,
+				FBB75BC2944E125FEEA88614 /* [CP] Embed Pods Frameworks */,
+				09F752590557C35609E4D743 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaussianBlurDemo;
+			productName = GaussianBlurDemo;
+			productReference = 20FA27041D73F9D3003201C5 /* GaussianBlurDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20FA271C1D73F9D3003201C5 /* GaussianBlurDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FA27291D73F9D3003201C5 /* Build configuration list for PBXNativeTarget "GaussianBlurDemoTests" */;
+			buildPhases = (
+				20FA27191D73F9D3003201C5 /* Sources */,
+				20FA271A1D73F9D3003201C5 /* Frameworks */,
+				20FA271B1D73F9D3003201C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20FA271F1D73F9D3003201C5 /* PBXTargetDependency */,
+			);
+			name = GaussianBlurDemoTests;
+			productName = GaussianBlurDemoTests;
+			productReference = 20FA271D1D73F9D3003201C5 /* GaussianBlurDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20FA26FC1D73F9D3003201C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = asj;
+				TargetAttributes = {
+					20FA27031D73F9D3003201C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 938EMAYW6W;
+					};
+					20FA271C1D73F9D3003201C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 20FA27031D73F9D3003201C5;
+					};
+				};
+			};
+			buildConfigurationList = 20FA26FF1D73F9D3003201C5 /* Build configuration list for PBXProject "GaussianBlurDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20FA26FB1D73F9D3003201C5;
+			productRefGroup = 20FA27051D73F9D3003201C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20FA27031D73F9D3003201C5 /* GaussianBlurDemo */,
+				20FA271C1D73F9D3003201C5 /* GaussianBlurDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20FA27021D73F9D3003201C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FA27171D73F9D3003201C5 /* LaunchScreen.storyboard in Resources */,
+				20FA27141D73F9D3003201C5 /* Assets.xcassets in Resources */,
+				20FA272D1D73FD47003201C5 /* bg.png in Resources */,
+				20FA27121D73F9D3003201C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FA271B1D73F9D3003201C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09F752590557C35609E4D743 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaussianBlurDemo/Pods-GaussianBlurDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0644DB84268C2F4479A3951 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBB75BC2944E125FEEA88614 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaussianBlurDemo/Pods-GaussianBlurDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20FA27001D73F9D3003201C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FA270F1D73F9D3003201C5 /* ViewController.m in Sources */,
+				20FA270C1D73F9D3003201C5 /* AppDelegate.m in Sources */,
+				20FA27091D73F9D3003201C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FA27191D73F9D3003201C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FA27221D73F9D3003201C5 /* GaussianBlurDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20FA271F1D73F9D3003201C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20FA27031D73F9D3003201C5 /* GaussianBlurDemo */;
+			targetProxy = 20FA271E1D73F9D3003201C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20FA27101D73F9D3003201C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20FA27111D73F9D3003201C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20FA27151D73F9D3003201C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20FA27161D73F9D3003201C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20FA27241D73F9D3003201C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20FA27251D73F9D3003201C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20FA27271D73F9D3003201C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2B4F10FE1F53B8BAB238AB /* Pods-GaussianBlurDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 938EMAYW6W;
+				INFOPLIST_FILE = GaussianBlurDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asj.GaussianBlurDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20FA27281D73F9D3003201C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D98F3A592A2F48BE720953B /* Pods-GaussianBlurDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 938EMAYW6W;
+				INFOPLIST_FILE = GaussianBlurDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asj.GaussianBlurDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20FA272A1D73F9D3003201C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GaussianBlurDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asj.GaussianBlurDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaussianBlurDemo.app/GaussianBlurDemo";
+			};
+			name = Debug;
+		};
+		20FA272B1D73F9D3003201C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GaussianBlurDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asj.GaussianBlurDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaussianBlurDemo.app/GaussianBlurDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20FA26FF1D73F9D3003201C5 /* Build configuration list for PBXProject "GaussianBlurDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FA27241D73F9D3003201C5 /* Debug */,
+				20FA27251D73F9D3003201C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FA27261D73F9D3003201C5 /* Build configuration list for PBXNativeTarget "GaussianBlurDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FA27271D73F9D3003201C5 /* Debug */,
+				20FA27281D73F9D3003201C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FA27291D73F9D3003201C5 /* Build configuration list for PBXNativeTarget "GaussianBlurDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FA272A1D73F9D3003201C5 /* Debug */,
+				20FA272B1D73F9D3003201C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20FA26FC1D73F9D3003201C5 /* Project object */;
+}
